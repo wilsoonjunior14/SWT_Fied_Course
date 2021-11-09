@@ -4,7 +4,7 @@
   "description": "small course about software testing to fied",
   "main": "index.js",
   "scripts": {
-    "test": "protractor ./e2e/conf.js"
+    "test": "jest ./integration/*.test.js"
   },
   "author": "",
   "license": "ISC",

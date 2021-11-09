@@ -23,3 +23,14 @@ test('Testando buscar cep nulo', async () => {
     // Assert
     expect(response).toStrictEqual({});
 });
+
+test('Testando cep inválido', async () => {
+    // Arrange
+    const myCep = "00000000";
+
+    // Act
+    const response = await cep.searchCep(myCep);
+
+    // Assert
+    expect(response.erro).toBe(true);
+});
