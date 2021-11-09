@@ -1,0 +1,19 @@
+{
+  "name": "swt_fied",
+  "version": "1.0.0",
+  "description": "small course about software testing to fied",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./e2e/conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "jasmine": "^3.10.0",
+    "jest": "^27.3.1",
+    "protractor": "^7.0.0",
+    "request": "^2.88.2",
+    "webdriver-manager": "^12.1.8"
+  }
+}
